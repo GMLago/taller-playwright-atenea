@@ -10,6 +10,8 @@
 - Visual Studio Code - Entorno de desarrollo  
 - GitHub - Gestión del repositorio de código  
 
+## 📌 Estructura del proyecto
+
 📂 taller-playwright-atenea  
  ┣ 📂 pages/               # Definición de las páginas del proyecto  
  ┣ 📂 tests/               # Pruebas automatizadas  
