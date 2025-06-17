@@ -18,8 +18,25 @@ export class RegisterPage {
     this.registerButton = page.getByTestId('boton-registrarse');
     this.loginButton = page.getByTestId('boton-login-header-signup');
   }
+
     async visitarPaginaRegistro() {
         await this.page.goto('http://localhost:3000/');
-        
-    }
+        await this.page.waitForLoadState('networkidle'); 
+  }
+
+    async completarFormularioRegistro(usuario: { nombre: string, apellido: string, email: string, contraseña: string }) {
+    await this.firstNameInput.fill(usuario.nombre);
+    await this.lastNameInput.fill(usuario.apellido);
+    await this.emailInput.fill(usuario.email);
+    await this.passwordInput.fill(usuario.contraseña);
+  }
+
+  async hacerClickBotonRegistro() {
+    await this.registerButton.click();
+  }
+
+  async completarYHacerClickBotonRegistro(usuario: { nombre: string, apellido: string, email: string, contraseña: string }) {
+    await this.completarFormularioRegistro(usuario);
+    await this.hacerClickBotonRegistro();
+  }
 }
