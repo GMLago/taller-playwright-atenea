@@ -13,9 +13,8 @@
 ## 📌 Estructura del proyecto
 
 📂 taller-playwright-atenea  
- ┣ 📂 pages/               # Definición de las páginas del proyecto  
- ┣ 📂 tests/               # Pruebas automatizadas  
- ┣ 📜 playwright.config.ts  # Configuración de Playwright  
- ┣ 📜 package.json          # Dependencias del proyecto  
- ┗ 📜 README.md             # Documentación  
-
+├── ┣ 📂 pages/               # Definición de las páginas del proyecto  
+├── ┣ 📂 tests/               # Pruebas automatizadas  
+├── ┣ 📜 playwright.config.ts  # Configuración de Playwright  
+├── ┣ 📜 package.json          # Dependencias del proyecto  
+└── ┗ 📜 README.md             # Documentación
