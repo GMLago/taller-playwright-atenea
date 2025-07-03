@@ -1,9 +1,15 @@
 {
     "usuarioValido":{
+        "nombre":"cri",
+        "apellido":"Cricri",
+        "email":"cri@prueba.com",
+        "contraseña":"123456"
+    
+    },
+    "usuarioValido2":{
         "nombre":"Celeste",
         "apellido":"Celes",
         "email":"celes@valido.com",
-        "contraseña":"c123456"
-    
+        "contraseña":"123456"
     }
 }
